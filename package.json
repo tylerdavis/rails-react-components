@@ -1,0 +1,21 @@
+{
+  "name": "rails-react-components",
+  "version": "0.0.4",
+  "description": "Rails friendly react components",
+  "main": "rails.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tyler Davis",
+  "license": "MIT",
+  "dependencies": {
+    "classnames": "^1.2.0",
+    "react": "^0.13.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-debug": "^2.0.1",
+    "gulp-react": "^3.0.1",
+    "react-tools": "^0.13.1"
+  }
+}
