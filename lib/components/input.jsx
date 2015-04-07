@@ -8,12 +8,14 @@ class Input extends React.Component {
   }
 
   render () {
-    var classes = cx(this.props.className, 'form-group');
+    var classes = cx(this.props.className, 'control-group');
 
     return (
       <div className={classes}>
         {this.label()}
-        <input {...this.props} className="form-control" />
+        <div className="controls">
+          <input {...this.props} className="form-control" />
+        </div>
       </div>
     )
   }
